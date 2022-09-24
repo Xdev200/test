@@ -1,0 +1,17 @@
+HTML Basics
+
+0 Basic Structure
+1. Elements
+2. Attributes
+3. Headings
+4. Paragraphs
+5. Styles
+6. Text Formatting
+7. Comments
+8. Colors
+9. Images
+10. Favicon
+11 Links
+12 Tables
+13 Lists
+14 Form

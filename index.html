@@ -2,27 +2,40 @@
 <html>
     <head>
         <title>My First Web Page</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/d/d5/Ethan_Hawke_2018.jpg" />
+        <style>
+          
+         table,th,td{
+          border:2px dotted red
+          }
+
+          #xyz{
+
+          }
+
+          h1{
+
+          }
+        </style>
     </head>
     <body>
-        <h1>Hello World</h1>
-        <h2>Hello World</h2>
-        <h3>Hello World</h3>
-        <h4>Hello World</h4>
-        <h5>Hello World</h5>
-        <br/>
-        <h6>Hello World</h6>
-        <p style="color:red;font-size:24px">The quick brown fox <span style="color: green">Jumps</span> right over the lazy dog.</p>
-        <a href="https://www.google.com" target="_blank">Google</a>
-        <p>
-            <b>Bold</b>
-            <i>Italic</i>
-            <u>Underline</u>
-        </p>
-        <p style="color:red;font-size:24px">x<sup>2</sup></p>
-        <button>CLICK ME</button>
-        <div style="border:2px solid red">Block Element</div>
-        <span style="border:2px solid green">Inline Element</span><br/>
-        <span style="border:2px solid green">Inline Element</span>
-        <span style="border:2px solid green">Inline Element2</span>
+      <form>
+        <input type="text" id="name" class="name" name="name" placeholder="write your name"/>
+        <input type="email" id="email" class="email" placeholder="johndoe@gmail.com" name="email" placeholder="write your email"/>
+        <input type="radio" id="male" class="male" value="Male"  name="gender"/>M
+        <input type="radio" id="female" class="female" value="Female"  name="gender"/>F
+        <input type="password" id="password" class="password" name="password" />
+        <input type="checkbox" id="sub1" class="sub1" name="subject" value="sub-1" />SUB-1
+        <input type="checkbox" id="sub2" class="sub2" name="subject" value="sub-2" />SUB-2
+        <input type="checkbox" id="sub3" class="sub3" name="subject"  value="sub-3"/>SUB-3
+        <input type="checkbox" id="sub4" class="sub4" name="subject" value="sub-4" />SUB-4
+        <input type="checkbox" id="sub5" class="sub5" name="subject" value="sub-5" />SUB-5
+        <input type="number" name="number" />
+        <input type="date" name="date"/>
+        <button>SUBMIT</button>
+      </form>
+        
+      
     </body>
 </html>
